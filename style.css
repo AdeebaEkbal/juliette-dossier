@@ -71,3 +71,18 @@ body{background-color:#301934;
                 from { width: 0; }   
                 to { width: 26ch; }       
             }
+            @media (max-width:768px)
+            {
+                .stamp
+                {
+                    position:relative;
+                    top:auto;
+                    right:auto;
+                    margin:30px auto;
+                    font-size:40px;
+                    border-width:4px;
+                    padding:10px 20px;
+                    width:fit-content;
+                    transform:rotate(-5deg);
+                }
+            }
